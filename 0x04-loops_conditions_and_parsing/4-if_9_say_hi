@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+i=0
+while (( i<=9 ))
+do
+	printf "Best School\n"
+	if ((i==8))
+	then
+		printf "Hi\n"
+	fi
+	(( i+=1 ))
+done
